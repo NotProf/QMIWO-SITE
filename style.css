@@ -13,6 +13,7 @@
 
 .img-product-one {
   background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg);
+  background-size: cover;
 }
 
 .img-product-two {
@@ -25,6 +26,60 @@
 
 .img-product-four {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_960_720.jpg);
+}
+
+.swiper-container {
+  height: 380px;
+}
+
+.swiper-scrollbar-drag {
+  background: orange !important;
+}
+
+.swiper-card {
+  width: 90%;
+  height: 90%;
+  background: whitesmoke;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.card-padding {
+  padding: 30px;
+}
+
+.full-size-img-card {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.swiper-padding {
+  padding-top: 11px;
+}
+
+@media all and (max-width: 991px) {
+  .swiper-container {
+    height: 420px;
+  }
+
+  .swiper-card {
+    width: 77%;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 100%;
+    overflow: scroll;
+  }
+  .swiper-card h1 {
+    font-size: 25px;
+  }
+
+  .card-padding {
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
