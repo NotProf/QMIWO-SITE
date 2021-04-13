@@ -12,24 +12,23 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-<!--    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>-->
-<!--    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->
-
     <script type="module" src="index.js"></script>
 </head>
 
 <body>
 <header class="header">
 
-    <nav class="navbar navbar-expand-lg navbar-light pr-5 pl-5">
-        <a class="navbar-brand font-weight-bold text-light" href="#"><h2><span class="text-warning">Q</span>MiWo</h2></a>
+    <nav class="navbar navbar-expand-lg navbar-light pr-2 pl-3">
+        <a class="navbar-brand font-weight-bold text-light" href="#">
+            <h1><span class="text-warning">Q</span>MiWo</h1>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse pr-5 pl-5 ml-auto" id="navbarTogglerDemo02">
-            <ul class="nav justify-content-center ml-auto pl-5">
+            <ul class="nav justify-content-center ml-auto p-4">
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#produkt">Produkt</a>
                 </li>
@@ -45,9 +44,9 @@
 
     </nav>
 
-    <section class="d-flex ml-5">
+    <section class="d-flex flex-wrap-reverse container-fluid">
 
-        <div class="d-flex align-items-start flex-column bd-highlight mb-3 ml-5 col-lg-5 mt-5">
+        <div class="d-flex align-items-start flex-column bd-highlight mb-3 col-lg-6 mt-5 pl-4">
             <div class="p-2 bd-highlight">
                 <h4 class="text-warning">Lorem ipsum dolor sit.</h4>
                 <h2 class="text-light">Lorem, ipsum.</h2>
@@ -60,8 +59,17 @@
                         elit. Adipisci cupiditate modi minima cum placeat at. Minima id perferendis accusantium, a quae
                         expedita. Minus est doloribus aliquam quidem nesciunt a vero ullam aperiam aliquid, quisquam
                         nemo illo!</span></div>
-            <button type="button" class="ml-2 btn btn-light text-dark font-weight-bold mb-5 rounded-3">Find Out
-                More</button>
+            <div>
+                <button type="button app-btn" class="btn btn-light text-dark font-weight-bold mb-5 rounded-3">
+                    <img src="assets/icons/logo-apple-appstore.svg" alt="" class="store-button ">   App Store
+                </button>
+
+                <button type="button app-btn" class="ml-2 btn btn-light text-dark font-weight-bold mb-5 rounded-3">
+                    <img src="assets/icons/logo-google-playstore.svg" alt="" class="store-button">
+                    Play Market
+                </button>
+            </div>
+
         </div>
     </section>
 
