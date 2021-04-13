@@ -88,6 +88,11 @@ li {
   .card-padding {
     padding: 10px;
   }
+
+  .ul-mob {
+    width: 71%;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
