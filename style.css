@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: 100%;
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg);
+  background: url(https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg) center center;
   background-size: cover;
 }
 
@@ -11,8 +11,13 @@
   background-size: cover;
 }
 
+li {
+  display: block;
+}
+
 .img-product-one {
   background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg);
+  background-size: cover;
 }
 
 .img-product-two {
@@ -32,6 +37,69 @@
   width: 250px;
   height: 250px;
   background-size: cover;
+}
+
+.store-button {
+  height: 25px;
+}
+
+.swiper-container {
+  height: 380px;
+}
+
+.swiper-scrollbar-drag {
+  background: orange !important;
+}
+
+.swiper-card {
+  width: 90%;
+  height: 90%;
+  background: whitesmoke;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.card-padding {
+  padding: 30px;
+}
+
+.full-size-img-card {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.swiper-padding {
+  padding-top: 11px;
+}
+
+@media all and (max-width: 991px) {
+  .swiper-container {
+    height: 420px;
+  }
+
+  .swiper-card {
+    width: 77%;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 100%;
+    overflow: scroll;
+  }
+  .swiper-card h1 {
+    font-size: 25px;
+  }
+
+  .card-padding {
+    padding: 10px;
+  }
+
+  .ul-mob {
+    width: 71%;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
