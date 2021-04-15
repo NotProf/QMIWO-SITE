@@ -7,7 +7,7 @@
 
 .img-product {
   width: 350px;
-  height: 350px;
+  height: 700px;
   background-size: cover;
 }
 
@@ -16,20 +16,21 @@ li {
 }
 
 .img-product-one {
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg);
+  background-image: url(assets/images/screenhot1.jpg);
   background-size: cover;
 }
 
 .img-product-two {
-  background-image: url(https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_960_720.jpg);
+  background-image: url(assets/images/screenhot2.jpg);
+  background-size: cover;
 }
 
 .img-product-three {
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376_960_720.jpg);
+  background-image: url(assets/images/screenhot3.jpg);
 }
 
 .img-product-four {
-  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_960_720.jpg);
+  background-image: url(assets/images/screenhot4.jpg);
 }
 
 .img-interview-one {
@@ -66,7 +67,7 @@ li {
 }
 
 .full-size-img-card {
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/13/chairs-2181968_960_720.jpg);
+  background-image: url(https://img.freepik.com/free-photo/smiling-female-business-leader-with-arms-crossed_1262-3089.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
