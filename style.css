@@ -102,5 +102,8 @@ li {
     margin: 0 auto;
   }
 }
+.plc-clr::placeholder {
+  color: #ffc107 !important;
+}
 
 /*# sourceMappingURL=style.css.map */
