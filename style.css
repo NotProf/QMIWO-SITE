@@ -44,7 +44,7 @@ li {
 }
 
 .img-interview-one {
-  background-image: url(https://cdn.pixabay.com/photo/2020/01/07/23/01/sketch-4748895_960_720.jpg);
+  background-image: url(assets/images/linda.jpg);
   width: 150px;
   height: 150px;
   background-size: cover;
@@ -77,10 +77,25 @@ li {
 }
 
 .full-size-img-card {
-  background-image: url(https://img.freepik.com/free-photo/smiling-female-business-leader-with-arms-crossed_1262-3089.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
+}
+
+.card-avatar-one {
+  background-image: url(assets/images/nicola.jpg);
+}
+
+.card-avatar-two {
+  background-image: url(https://img.freepik.com/free-photo/smiling-female-business-leader-with-arms-crossed_1262-3089.jpg);
+}
+
+.card-avatar-three {
+  background-image: url(https://img.freepik.com/free-photo/smiling-female-business-leader-with-arms-crossed_1262-3089.jpg);
+}
+
+.card-avatar-four {
+  background-image: url(https://img.freepik.com/free-photo/smiling-female-business-leader-with-arms-crossed_1262-3089.jpg);
 }
 
 .swiper-padding {
