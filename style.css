@@ -14,6 +14,16 @@
 li {
   display: block;
 }
+@media all and (max-width: 991px) {
+  li {
+    margin: 0 20px;
+  }
+}
+
+.login-btn {
+  border-radius: 5px;
+  background: #ffc107;
+}
 
 .img-product-one {
   background-image: url(assets/images/screenhot1.jpg);
@@ -122,6 +132,10 @@ li {
 .submit-btn:hover {
   background: #ffc107 !important;
   color: white !important;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
