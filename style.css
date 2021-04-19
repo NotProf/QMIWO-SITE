@@ -15,11 +15,6 @@ li {
   display: block;
 }
 
-.login-btn {
-  background: #ffc107;
-  border-radius: 7px;
-}
-
 .img-product-one {
   background-image: url(assets/images/screenhot1.jpg);
   background-size: cover;
@@ -47,7 +42,7 @@ li {
 
 .store-button {
   height: 25px;
-}   
+}
 
 .swiper-container {
   height: 380px;
@@ -80,6 +75,15 @@ li {
 
 .swiper-padding {
   padding-top: 11px;
+}
+
+.incorrect-input {
+  border: 1px solid darkred !important;
+  box-shadow: 0 0 3px red !important;
+}
+
+.error-message {
+  display: none;
 }
 
 @media all and (max-width: 991px) {

@@ -33,7 +33,7 @@ li {
   background-image: url(assets/images/screenhot4.jpg);
 }
 
-.img-interview-one{
+.img-interview-one {
   background-image: url(https://cdn.pixabay.com/photo/2020/01/07/23/01/sketch-4748895_960_720.jpg);
   width: 150px;
   height: 150px;
@@ -78,6 +78,15 @@ li {
   padding-top: 11px;
 }
 
+.incorrect-input {
+  border: 1px solid darkred !important;
+  box-shadow: 0 0 3px red !important;
+}
+
+.error-message {
+  display: none;
+}
+
 @media all and (max-width: 991px) {
 
   .swiper-container {
@@ -107,8 +116,8 @@ li {
 
 }
 
-.plc-clr::placeholder{
-  color: #ffc107!important;
+.plc-clr::placeholder {
+  color: #ffc107 !important;
 }
 
 .plc-clr {
